@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import { WHATSAPP_URL } from '@/lib/constants'
+import { PRICE } from '@/lib/pricing'
 
 const plans = [
   {
     name: 'Landing Page',
-    price: 'RM99',
+    price: PRICE.landingPage.label,
     period: 'one-time',
     description: 'Perfect for getting your business online fast.',
     features: [
@@ -17,15 +18,15 @@ const plans = [
       'Fast loading',
       '3-day delivery',
     ],
-    cta: 'Get Started for RM99',
+    cta: `Get Started — ${PRICE.landingPage.label}`,
     ctaLink: WHATSAPP_URL,
     isExternal: true,
     highlighted: true,
-    badge: 'Best Value',
+    badge: 'Most Popular',
   },
   {
     name: 'Company Website',
-    price: 'RM499',
+    price: PRICE.companyWebsite.label,
     period: 'one-time',
     description: 'A complete multi-page professional website.',
     features: [
@@ -45,7 +46,7 @@ const plans = [
   },
   {
     name: 'E-Commerce',
-    price: 'RM999',
+    price: PRICE.ecommerce.label,
     period: 'one-time',
     description: 'Sell products online 24/7 with a complete store.',
     features: [

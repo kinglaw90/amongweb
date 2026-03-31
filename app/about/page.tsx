@@ -2,12 +2,13 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import ContactCTA from '@/components/ContactCTA'
-import { SITE_NAME, SITE_URL, WHATSAPP_URL } from '@/lib/constants'
+import { COMPANY_EMAIL, COMPANY_LOCATION, SITE_NAME, SITE_URL, SOCIAL_LINKS, WHATSAPP_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'About Us – Freelance Web Designer in Malaysia',
   description:
     'Learn about Among Web – a Malaysian freelance web design studio helping businesses grow online with affordable, results-driven websites. Based in Kuala Lumpur.',
+  alternates: { canonical: `${SITE_URL}/about` },
   openGraph: {
     title: `About Among Web – Freelance Web Designer in Malaysia`,
     description:
@@ -67,17 +68,49 @@ const process = [
 ]
 
 export default function AboutPage() {
+  const orgJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: `${SITE_URL}/logo.svg`,
+    email: COMPANY_EMAIL,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Kuala Lumpur',
+      addressCountry: 'MY',
+    },
+    areaServed: { '@type': 'Country', name: 'Malaysia' },
+    sameAs: [SOCIAL_LINKS.facebook, SOCIAL_LINKS.instagram, SOCIAL_LINKS.linkedin],
+    description:
+      'Among Web is a Malaysian freelance web design studio building fast, affordable, and SEO-optimised websites for businesses across Malaysia.',
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
       {/* Page Hero */}
-      <div className="page-hero">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="section-tag">About Among Web</span>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-5">
+      <div className="relative overflow-hidden bg-slate-950 pt-32 pb-24">
+        <div className="absolute inset-0" aria-hidden="true">
+          <Image
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&q=80&auto=format&fit=crop"
+            alt=""
+            fill
+            className="object-cover opacity-20"
+            sizes="100vw"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/80 to-slate-950" />
+        </div>
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-blue-400 mb-5">
+            About Among Web
+          </span>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6 tracking-tight">
             Your Trusted Freelance Web Designer in Malaysia
           </h1>
-          <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-            We help Malaysian businesses build a professional online presence without breaking the bank — starting from just RM99.
+          <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
+            We help Malaysian businesses build a professional online presence — starting from RM 599.
           </p>
         </div>
       </div>
@@ -99,7 +132,7 @@ export default function AboutPage() {
                   Too many Malaysian SMEs, home-based businesses, and startups are missing out on online opportunities because professional web design felt out of reach — either too expensive, too complicated, or too slow.
                 </p>
                 <p>
-                  We changed that by offering high-quality, SEO-optimized websites starting from just RM99, delivered in as little as 3 days. No corporate bloat, no unnecessary pricing layers — just honest work at honest prices.
+                  We changed that by offering high-quality, SEO-optimized websites starting from RM 599, delivered in as little as 3 days. No corporate bloat, no unnecessary pricing layers — just honest work at honest prices.
                 </p>
                 <p>
                   Today, we've helped 50+ Malaysian businesses across various industries establish a strong online presence that generates real leads and drives real growth.
@@ -127,8 +160,8 @@ export default function AboutPage() {
             <div className="flex flex-col gap-5">
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
                 <Image
-                  src="/aboutus.jpg"
-                  alt="Among Web team and workspace"
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&q=85&auto=format&fit=crop"
+                  alt="Professional web design team collaborating around a laptop"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -139,7 +172,7 @@ export default function AboutPage() {
                 {[
                   { value: '50+', label: 'Projects Delivered', icon: 'fi-rr-rocket' },
                   { value: '5★', label: 'Average Rating', icon: 'fi-rr-star' },
-                  { value: 'RM99', label: 'Starting Price', icon: 'fi-rr-coins' },
+                  { value: 'RM 599', label: 'Starting Price', icon: 'fi-rr-coins' },
                   { value: '3 Days', label: 'Fastest Delivery', icon: 'fi-rr-bolt' },
                 ].map((stat) => (
                   <div key={stat.label} className="card text-center">

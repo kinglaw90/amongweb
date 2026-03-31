@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import Image from 'next/image'
 import Link from 'next/link'
 import BlogCard from '@/components/BlogCard'
 import ContactCTA from '@/components/ContactCTA'
@@ -22,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: { canonical: `${SITE_URL}/blog/${post.slug}` },
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -115,22 +117,35 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       {/* Article Hero */}
-      <div className="page-hero">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative overflow-hidden bg-slate-950 pt-32 pb-24">
+        <div className="absolute inset-0" aria-hidden="true">
+          <Image
+            src={post.image}
+            alt=""
+            fill
+            className="object-cover opacity-20"
+            sizes="100vw"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/80 to-slate-950" />
+        </div>
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-slate-400 mb-6">
-            <Link href="/" className="hover:text-slate-600 transition-colors">Home</Link>
+            <Link href="/" className="hover:text-slate-300 transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-slate-600 transition-colors">Blog</Link>
+            <Link href="/blog" className="hover:text-slate-300 transition-colors">Blog</Link>
             <span>/</span>
-            <span className="text-slate-600 line-clamp-1">{post.title}</span>
+            <span className="text-slate-500 line-clamp-1">{post.title}</span>
           </nav>
 
-          <span className="section-tag">{post.category}</span>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white mb-6 leading-tight">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-blue-400 mb-5">
+            {post.category}
+          </span>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-6 leading-tight">
             {post.title}
           </h1>
-            <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 dark:text-slate-400">
+          <div className="flex flex-wrap items-center gap-4 text-sm text-slate-400">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-violet-500 flex items-center justify-center text-white font-bold text-xs">
                 AW
@@ -172,7 +187,7 @@ export default async function BlogPostPage({ params }: Props) {
               <div className="bg-gradient-to-br from-blue-600 to-violet-600 rounded-2xl p-6 text-white sticky top-24">
                 <h3 className="font-bold text-lg mb-2">Ready to get started?</h3>
                 <p className="text-blue-100 text-sm mb-5 leading-relaxed">
-                  Get a professional website for your Malaysian business starting from just RM99.
+                  Get a professional website for your Malaysian business starting from RM 599.
                 </p>
                 <a
                   href={WHATSAPP_URL}

@@ -21,7 +21,7 @@ export default function ContactCTA() {
           </span>
         </h2>
         <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Join 50+ Malaysian businesses that already have fast, professional websites. Start with a landing page at just RM99 — no risk, great results.
+          Join 50+ Malaysian businesses that already have fast, professional websites. Start with a landing page from RM 599 — delivered in just 3 days.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

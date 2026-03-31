@@ -1,8 +1,8 @@
 export const SITE_URL = 'https://amongweb.net'
 export const SITE_NAME = 'Among Web'
-export const SITE_TAGLINE = 'Affordable Website Design in Malaysia – Starting from RM99'
+export const SITE_TAGLINE = 'Professional Website Design in Malaysia – Starting from RM 599'
 export const SITE_DESCRIPTION =
-  'Professional freelance web designer in Malaysia. We build fast, modern, and conversion-focused websites starting from RM99. Specializing in landing pages, company websites & e-commerce.'
+  'Professional freelance web designer in Malaysia. We build fast, modern, and conversion-focused websites starting from RM 599. Specializing in landing pages, company websites & e-commerce.'
 
 export const WHATSAPP_NUMBER = '601111381098'
 export const WHATSAPP_MESSAGE =

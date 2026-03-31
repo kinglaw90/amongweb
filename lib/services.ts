@@ -1,3 +1,5 @@
+import { PRICE } from '@/lib/pricing'
+
 export interface Service {
   id: number
   icon: string
@@ -18,8 +20,8 @@ export const services: Service[] = [
     title: 'Landing Page',
     description:
       'A focused single-page website built to convert visitors into leads. Perfect for promotions, new products, or getting your business online fast with a professional presence.',
-    price: 'From RM99',
-    priceNote: 'Best value',
+    price: PRICE.landingPage.fromLabel,
+    priceNote: 'Most popular',
     features: [
       '1-page responsive design',
       'WhatsApp & contact integration',
@@ -38,7 +40,7 @@ export const services: Service[] = [
     title: 'Company Website',
     description:
       'A complete multi-page website that tells your brand story, showcases your services, and builds trust with potential customers. Designed to rank on Google and generate leads.',
-    price: 'From RM499',
+    price: PRICE.companyWebsite.fromLabel,
     features: [
       '5–7 fully custom pages',
       'About, Services & Portfolio pages',
@@ -56,7 +58,7 @@ export const services: Service[] = [
     title: 'E-Commerce Store',
     description:
       'A fully functional online store that lets your customers browse, order, and pay — 24/7. Integrated with Malaysian payment gateways and built to scale with your business.',
-    price: 'From RM999',
+    price: PRICE.ecommerce.fromLabel,
     features: [
       'Unlimited product catalogue',
       'FPX, credit card & e-wallet payments',
@@ -74,7 +76,7 @@ export const services: Service[] = [
     title: 'CMS Website',
     description:
       'A website with a built-in content management system so you can update text, images, blog posts, and pages yourself — no coding knowledge required.',
-    price: 'From RM799',
+    price: PRICE.cmsWebsite.fromLabel,
     features: [
       'Easy-to-use admin dashboard',
       'Add & edit pages without coding',
@@ -92,7 +94,7 @@ export const services: Service[] = [
     title: 'Booking System',
     description:
       'Let customers book appointments, classes, or services directly from your website. Automated confirmations, reminders, and calendar sync — reduce no-shows and save admin time.',
-    price: 'From RM1,299',
+    price: PRICE.bookingSystem.fromLabel,
     features: [
       'Online appointment scheduling',
       'Automated email & WhatsApp reminders',

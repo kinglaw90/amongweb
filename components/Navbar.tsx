@@ -50,7 +50,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 shrink-0">
             <Image
-              src="/logo.png"
+              src={isTransparent ? '/logo.svg' : '/logo-light.svg'}
               alt="Among Web logo"
               width={120}
               height={36}
@@ -58,7 +58,7 @@ export default function Navbar() {
               priority
             />
             <Image
-              src="/logo-light.png"
+              src="/logo.svg"
               alt="Among Web logo"
               width={120}
               height={36}

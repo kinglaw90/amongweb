@@ -1,14 +1,15 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import PortfolioCard from '@/components/PortfolioCard'
 import ContactCTA from '@/components/ContactCTA'
 import { portfolioItems } from '@/lib/portfolio'
 import { SITE_URL, WHATSAPP_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
-
   title: 'Portfolio – Web Design Projects for Malaysian Businesses',
   description:
     "Browse Among Web's portfolio of websites built for Malaysian businesses. Landing pages, company websites, e-commerce stores, and web applications across Malaysia.",
+  alternates: { canonical: `${SITE_URL}/portfolio` },
   openGraph: {
     title: 'Portfolio – Among Web | Malaysian Web Design Projects',
     description:
@@ -21,13 +22,26 @@ export default function PortfolioPage() {
   return (
     <>
       {/* Hero */}
-      <div className="page-hero">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="section-tag">Our Portfolio</span>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-5">
+      <div className="relative overflow-hidden bg-slate-950 pt-32 pb-24">
+        <div className="absolute inset-0" aria-hidden="true">
+          <Image
+            src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1600&q=80&auto=format&fit=crop"
+            alt=""
+            fill
+            className="object-cover opacity-20"
+            sizes="100vw"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/80 to-slate-950" />
+        </div>
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-blue-400 mb-5">
+            Our Portfolio
+          </span>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6 tracking-tight">
             Websites Built for Malaysian Businesses
           </h1>
-          <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
             Real projects, real results. Every website below is live and generating business for our Malaysian clients.
           </p>
         </div>

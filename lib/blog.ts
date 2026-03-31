@@ -1,4 +1,4 @@
-export interface BlogPost {
+﻿export interface BlogPost {
   id: number
   slug: string
   title: string
@@ -15,148 +15,140 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: 1,
-    slug: 'affordable-web-design-malaysia-2024',
-    title: 'Affordable Web Design in Malaysia: Complete Guide 2024',
+    slug: 'affordable-web-design-malaysia-2026',
+    title: 'Affordable Web Design in Malaysia: Complete Guide 2026',
     excerpt:
       'Looking for affordable web design in Malaysia? This complete guide covers pricing, what to expect, and how to find the best freelance web designer for your budget.',
-    date: '2024-03-15',
+    date: '2026-03-15',
     readTime: '6 min read',
     category: 'Web Design',
-    image: '/blog/web-design-malaysia.jpg',
+    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80&auto=format&fit=crop',
     tags: ['web design', 'malaysia', 'affordable', 'guide'],
     author: 'Among Web',
     content: `
-## Affordable Web Design in Malaysia: Complete Guide 2024
+## Affordable Web Design in Malaysia: Complete Guide 2026
 
-Building a website for your Malaysian business doesn't have to break the bank. Whether you're a small business owner, startup founder, or freelancer, understanding web design costs in Malaysia can help you make the right investment.
+Everyone tells you that you need a website. Your business partner, your competitor, probably your mother. But then you ask around for quotes and get answers anywhere from RM200 to RM20,000, with no real explanation for the gap. That's genuinely frustrating.
 
-### How Much Does a Website Cost in Malaysia?
+This guide is straightforward — what web design actually costs in Malaysia, what moves the price up or down, and how to make sure you're not getting shortchanged.
 
-Web design prices in Malaysia vary widely depending on the type of website and the designer's experience:
 
-- **Landing Page**: RM99 – RM500
-- **Company Website (5–7 pages)**: RM499 – RM3,000
-- **E-Commerce Website**: RM999 – RM10,000+
-- **Custom Web Application**: RM3,000 – RM50,000+
+### Real Price Ranges in Malaysia
 
-### What Affects Web Design Cost in Malaysia?
+These are honest market rates, not the inflated numbers agencies use to make their own quotes look reasonable by comparison:
 
-Several factors influence how much you'll pay for web design:
+- **Landing page** — RM200 to RM700
+- **Company website (5–8 pages)** — RM800 to RM3,000
+- **E-commerce store** — RM2,000 to RM8,000
+- **Custom web application** — RM5,000 and up
 
-**1. Number of Pages**
-More pages mean more design and development work. A simple landing page costs significantly less than a 20-page company website.
+Not sure why the ranges are so wide? A landing page from an experienced designer who writes clean, SEO-ready code genuinely costs more than one from a student who downloaded a free theme. Both exist in this market. The price alone doesn't tell you which one you're getting — that's why you look at the work itself.
 
-**2. Design Complexity**
-Custom designs take more time and skill than template-based solutions. Premium custom designs naturally cost more.
 
-**3. Features & Functionality**
-Basic contact forms are simple to build. E-commerce, booking systems, and member portals require more complex development.
+### What Actually Moves the Price
 
-**4. SEO & Content**
-A website that ranks on Google requires proper SEO setup, keyword research, and quality content writing.
+**How many pages you need**
 
-**5. Ongoing Maintenance**
-Some designers offer monthly maintenance packages for updates, security, and backups.
+Every page is real work — designing it, writing code for it, testing it on mobile, sometimes writing the content for it. A 10-page site is genuinely two to three times more effort than a landing page. The price difference reflects that.
 
-### Why Choose a Freelance Web Designer in Malaysia?
+**Template vs. custom design**
 
-Hiring a freelance web designer in Malaysia offers several advantages:
+Templates aren't bad by default. A quality template customized properly to your brand can look just as good as a from-scratch custom design at a fraction of the cost. The problem is lazy execution — swapping out demo text and calling it done. Ask to see live websites they've built, not just screenshots.
 
-- **30–60% cheaper** than web design agencies
-- **Direct communication** with the person building your site
-- **Flexible packages** tailored to your budget
-- **Faster turnaround** due to less bureaucracy
-- **Local understanding** of the Malaysian market
+**What you want the site to actually do**
 
-### What to Look for in a Web Designer
+A WhatsApp button and a contact form take an afternoon. A booking system that syncs with a calendar and sends SMS reminders takes two weeks. Custom filtering, member logins, inventory management — more. Features drive cost more than almost anything else.
 
-Before hiring a web designer in Malaysia, check:
+**SEO — and whether it's real or just a checkbox**
 
-1. **Portfolio** – Do they have relevant experience in your industry?
-2. **Reviews** – What do past clients say?
-3. **Communication** – Do they respond quickly and clearly?
-4. **Process** – Do they explain their workflow?
-5. **After-sales support** – Will they help you after launch?
+A website nobody can find on Google is just an expensive digital business card. Proper SEO setup should come standard: optimized page titles, structured headings, fast loading, clean URLs, Google Search Console connection. If a designer doesn't mention SEO at all, ask specifically. If the answer is vague, look elsewhere.
 
-### Getting the Best Value for Your Website
 
-To maximize value for your web design investment:
+### Freelancer vs. Agency — What Makes Sense for an SME
 
-- Define your goals clearly before starting
-- Prepare your content (text, images, logo) in advance
-- Ask for a clear timeline and deliverables
-- Choose a designer who understands SEO basics
-- Plan for future growth from the start
+For most Malaysian businesses, a freelance web designer is the better value. You pay 40–60% less than an agency, communicate directly with the person building your site, and typically get faster turnaround with less bureaucracy in the middle.
 
-### Conclusion
+Agencies add value when you genuinely need multiple specialists working in parallel on something complex. For a company website or lead-generation landing page, that coordination overhead isn't producing anything extra — you're still paying for it though.
 
-Affordable web design in Malaysia is possible without sacrificing quality. Starting from just RM99 for a landing page, you can have a professional online presence that generates leads for your business.
 
-At Among Web, we specialize in building affordable, SEO-optimized websites for Malaysian businesses of all sizes. [Contact us today](/contact) to discuss your project.
+### How to Get Good Value
+
+Prepare your content before you start. Logo at full resolution, the text for every page, photos of your product or workspace. Designers can start faster and the project costs you less back-and-forth when you come ready.
+
+Tell them your actual goal. "I want more enquiries from businesses in Shah Alam looking for corporate catering" is a real brief. "I want a nice website" isn't.
+
+And look at live work, not testimonials. Visit the actual sites a designer has built. Test them on your phone. Check if they load fast. See whether any of their clients actually rank on Google for relevant search terms. That tells you what you're really paying for.
+
+
+If you're trying to figure out what's right for your business, [drop us a message](/contact). We'll tell you what we'd build for your situation — honestly, no long sales call needed.
     `.trim(),
   },
   {
     id: 2,
-    slug: 'why-malaysian-sme-needs-website-2024',
-    title: 'Why Your Malaysian SME Needs a Website in 2024',
+    slug: 'why-malaysian-sme-needs-website-2026',
+    title: 'Why Your Malaysian SME Needs a Website in 2026',
     excerpt:
-      'Still relying on social media alone? Discover why having a proper website is essential for Malaysian SMEs in 2024 and how it can transform your business.',
-    date: '2024-02-28',
+      'Still relying on social media alone? Discover why having a proper website is essential for Malaysian SMEs in 2026 and how it can transform your business.',
+    date: '2026-02-28',
     readTime: '5 min read',
     category: 'Business',
-    image: '/blog/sme-website-malaysia.jpg',
+    image: 'https://images.unsplash.com/photo-1553484771-047a44eee27a?w=800&q=80&auto=format&fit=crop',
     tags: ['sme', 'malaysia', 'business', 'website'],
     author: 'Among Web',
     content: `
-## Why Your Malaysian SME Needs a Website in 2024
+## Why Your Malaysian SME Needs a Website in 2026
 
-Many Malaysian small businesses still rely solely on Facebook pages or Instagram profiles as their online presence. While social media is valuable, it's not a replacement for a proper website. Here's why your SME needs a website in 2024.
+Let me get the obvious objection out of the way first: "I already have Facebook and Instagram. That's enough, right?"
 
-### The Reality of Digital Malaysia
+Technically, it gets you visible online. But relying on social media as your only presence has real risks that most business owners don't think about until something has already gone wrong.
 
-Malaysia has over 30 million internet users, with 91% of adults using smartphones daily. When Malaysians want to find a product or service, they Google it first. If your business isn't on Google, you're invisible to 91% of potential customers.
 
-### 5 Reasons Your Malaysian SME Needs a Website
+### You Don't Own Any of It
 
-**1. You Don't Own Your Social Media Audience**
+Your Facebook page, your Instagram following, your TikTok audience — you don't own any of it. Meta can throttle your organic reach overnight (they've already done this, repeatedly). An account can be restricted or banned for reasons completely outside your control. TikTok's regulatory future in several markets is still genuinely uncertain.
 
-Facebook, Instagram, and TikTok can change their algorithms, ban accounts, or shut down. Your website is the only digital asset you truly own. A database of 10,000 followers means nothing if Meta changes their policies tomorrow.
+A website is the only digital presence you actually own. Your domain is yours. Your hosting is yours. Your content is yours. Nobody can take it away.
 
-**2. Customers Trust Businesses with Websites**
 
-Studies show that 84% of consumers believe a business with a website is more credible than one without. A professional website instantly increases trust and legitimacy.
+### Google is Where the Buying Intent Is
 
-**3. Google Drives Free, High-Intent Traffic**
+When someone types "renovation contractor Subang Jaya" or "HR payroll software Malaysia" into Google, they are actively searching for a solution. They have a budget, they have a problem, and they want to find someone to call.
 
-When someone searches "hydraulic supplier Kuala Lumpur" or "catering service Penang," they're ready to buy. SEO-optimized websites capture this high-intent traffic 24/7, completely free.
+That's a very different audience from someone passively scrolling their feed who happens to catch your boosted post.
 
-**4. A Website Works 24/7**
+A well-built, SEO-optimized website lets you show up for those searches — not once, not for the duration of a paid campaign, but every day, continuously, for free.
 
-Your website works while you sleep. It can answer common questions, capture leads, showcase your portfolio, and even process orders — without any staff involvement.
 
-**5. Competitive Advantage**
+### 5 Practical Reasons to Stop Putting This Off
 
-Many of your competitors still don't have proper websites. Be the business that shows up in Google Search, and capture customers that others are leaving behind.
+**It makes you look legitimate to people who don't know you yet**
 
-### The Cost of NOT Having a Website
+This is blunt, but it's accurate. In B2B, professional services, and anything with a higher price point, most potential clients will Google you before they reach out. If they find nothing, some will move on to the next result. A clean, professional website tells them you're established, you take your business seriously, and you're safe to engage with.
 
-Consider how many potential customers you're losing every month because:
-- They couldn't find you on Google
-- They wanted to see your services list but had no website to visit
-- They lost trust because you only had a Facebook page
-- They chose a competitor who had a professional online presence
+**It handles your most common enquiries while you're busy**
 
-Even at RM99, a landing page can generate leads that pay for itself many times over.
+Your website works at 2am. It shows your services, answers the questions you answer on WhatsApp every single day, displays your portfolio, and has a contact form ready. Before someone even messages you, half the work is already done.
 
-### Getting Started
+**You can own search terms your competitors aren't competing for**
 
-Starting a website for your Malaysian SME is easier and more affordable than ever. At Among Web, we offer:
+A lot of Malaysian SMEs still don't have proper websites, or have outdated ones that load slowly and aren't optimized. That's an opening. A well-built site in a moderately competitive local niche can reach the first page of Google within a few months — steady organic traffic your competitors aren't even in the game for.
 
-- **Landing pages from RM99** – Perfect for getting online fast
-- **Company websites from RM499** – Full multi-page professional presence
-- **E-commerce from RM999** – Sell online 24/7
+**Paid advertising works far better with a proper destination**
 
-[Get in touch today](/contact) and let's build something great for your business.
+If you ever run Google or Facebook Ads, you need somewhere real to send that traffic. Sending paid clicks to a Facebook page or straight to WhatsApp is expensive and inefficient. A landing page with a single, clear call to action converts significantly better — which means you spend less per lead.
+
+**A website is an asset that compounds — ads aren't**
+
+Boosting a Facebook post stops the moment you stop paying. SEO you build up keeps working for years. Every page you optimize, every piece of content you publish — it accumulates. The return on a good website improves over time.
+
+
+### The Real Question is How Long You Can Afford to Wait
+
+Every month without a website is a month where potential customers Googled what you offer, didn't find you, and hired someone else instead. That's not hypothetical — it's happening right now.
+
+At the entry level, getting a landing page live takes a few days. For most businesses, a single additional client that finds you through your website pays for the whole thing several times over.
+
+[Let's build yours →](/contact)
     `.trim(),
   },
   {
@@ -165,75 +157,62 @@ Starting a website for your Malaysian SME is easier and more affordable than eve
     title: 'Landing Page vs Full Website: Which Do You Need?',
     excerpt:
       'Not sure whether to build a landing page or a full website for your Malaysian business? This guide breaks down the differences, costs, and best use cases for each.',
-    date: '2024-02-10',
+    date: '2026-02-10',
     readTime: '4 min read',
     category: 'Web Design',
-    image: '/blog/landing-page-vs-website.jpg',
+    image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80&auto=format&fit=crop',
     tags: ['landing page', 'website', 'malaysia', 'comparison'],
     author: 'Among Web',
     content: `
 ## Landing Page vs Full Website: Which Do You Need?
 
-One of the most common questions Malaysian business owners ask is: "Should I get a landing page or a full website?" The answer depends on your goals, budget, and business stage.
+Short answer: most businesses should start with a landing page and upgrade when they're ready. But "it depends" without any reasoning isn't actually useful, so let me explain.
 
-### What is a Landing Page?
 
-A landing page is a single-page website focused on one goal — usually getting visitors to take a specific action, like:
-- Calling or WhatsApp-ing you
-- Filling out an enquiry form
-- Downloading a brochure
-- Making a purchase
+### What Each One Actually Is
 
-### What is a Full Website?
+A landing page is a single page with one goal — get the visitor to take one specific action. Call you, WhatsApp you, fill in a form. No navigation pulling them off to other sections, no blog, no team page. Just your offer, your proof, and a clear way to contact you.
 
-A full website has multiple pages covering different aspects of your business:
-- Home / About / Services / Portfolio / Contact
-- Blog section for content marketing
-- Dedicated landing pages for each service
+A full website (typically 5–8 pages) covers the complete picture: who you are, what you offer, past work, how to reach you, sometimes a blog. It suits businesses with multiple services, bigger teams, or customers who need to do some research before they're willing to make contact.
 
-### When to Choose a Landing Page (RM99)
 
-A landing page is the right choice if:
+### When a Landing Page Makes More Sense
 
-✅ You're a new business that needs to get online quickly
-✅ You have one main product or service to promote
-✅ Your primary goal is generating WhatsApp leads
-✅ Budget is a key constraint
-✅ You want to test a new product or market
+If you're just starting out, have one main thing to promote, and want WhatsApp enquiries — a landing page is almost always the right call.
 
-**Best for**: Freelancers, home-based businesses, new startups, single-product businesses, event promotions
+Here's the honest reason: full websites take more time, cost more, and require a lot more content to do well. Most first-time website owners underestimate how much writing actually goes into 7 pages that say something useful. They end up with thin placeholder pages that neither rank on Google nor convince anybody of anything.
 
-### When to Choose a Full Website
+A focused, well-built landing page consistently outperforms a half-finished multi-page site for lead generation.
 
-A full website is the right choice if:
+**Good fits for a landing page:**
+- Freelancers and solo service providers
+- Home-based businesses — food, tutoring, crafts, beauty services
+- New businesses that need to go live in under a week
+- Single-service or single-product offers
+- Event promotions or campaign pages
 
-✅ You offer multiple services or products
-✅ You want to rank for multiple keywords on Google
-✅ You need to showcase a portfolio or case studies
-✅ Your business needs to look highly professional and established
-✅ You plan to do content marketing (blog)
 
-**Best for**: Established SMEs, professional services (accounting, legal, medical), agencies, e-commerce
+### When a Full Website is the Right Investment
 
-### Cost Comparison
+Once you have genuinely different services aimed at different audiences, a landing page starts to feel cramped. A legal firm has corporate clients, family matters, and individual litigation — different needs belong on different pages. A renovation company needs to show different project types. A software company needs a blog for SEO to work properly over time.
 
-| Type | Average Cost | Delivery Time |
-|------|-------------|---------------|
-| Landing Page | RM99–RM500 | 3–5 days |
-| Company Website | RM499–RM3,000 | 7–14 days |
-| E-Commerce | RM999–RM10,000+ | 14–30 days |
+Signs you're ready for a full site:
+- Three or more distinct services with different target customers
+- You want to blog and build content-driven organic traffic
+- You need to showcase a portfolio with real depth
+- Your audience needs reassurance before contacting (clinics, legal, financial services)
+- You're running separate ad campaigns for different offerings
 
-### Our Recommendation
 
-**Start with a landing page.** It's the fastest, most affordable way to get online and start generating leads. Once you have revenue coming in, upgrade to a full website.
+### The Path That Actually Works
 
-At Among Web, we offer landing pages from RM99 that are:
-- Fully mobile-responsive
-- SEO-optimized
-- WhatsApp integration included
-- Delivered in 3 days
+Start with a landing page. Get it live, get leads coming in, and learn what's actually happening. Once your website is generating real enquiries, you'll have the data to inform the full site — which services people ask about most, what questions they keep asking, what content would have helped them decide faster.
 
-[Get your landing page today →](/contact)
+This isn't a budget compromise. It's genuinely the better process. A live landing page teaches you more in one month than planning a full website for six months.
+
+We build landing pages from RM599 and full company sites from RM1,499. Both come SEO-ready and both are delivered fast.
+
+[Tell us what you need →](/contact)
     `.trim(),
   },
   {
@@ -242,89 +221,82 @@ At Among Web, we offer landing pages from RM99 that are:
     title: '5 Things to Check Before Hiring a Web Designer in Malaysia',
     excerpt:
       'Hiring the wrong web designer can waste your money and time. Here are 5 critical things every Malaysian business owner must check before hiring a web designer.',
-    date: '2024-01-25',
+    date: '2026-01-25',
     readTime: '5 min read',
     category: 'Tips',
-    image: '/blog/choose-web-designer.jpg',
+    image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80&auto=format&fit=crop',
     tags: ['web designer', 'malaysia', 'tips', 'hiring'],
     author: 'Among Web',
     content: `
 ## 5 Things to Check Before Hiring a Web Designer in Malaysia
 
-Choosing the right web designer is one of the most important decisions for your business's online success. Here are 5 critical checks before you sign any contract.
+There are a lot of web designers in Malaysia. Some are genuinely skilled. Some will take your deposit, deliver something that looks like it was built in 2012, then be slow to respond when you ask for fixes. Here's how to tell the difference before you've committed to anything.
 
-### 1. Review Their Portfolio Carefully
 
-The most important thing to check is their portfolio. Look for:
+### 1. Visit Their Live Websites — Not Their Screenshots
 
-- **Diversity** – Can they handle different industries?
-- **Quality** – Do the designs look professional and modern?
-- **Mobile responsiveness** – Test their portfolio sites on your phone
-- **Loading speed** – Slow sites = poor user experience and bad SEO
-- **Relevance** – Have they built sites similar to what you need?
+Screenshots are easy to hand-pick and impossible to properly evaluate. Ask for links to actual live websites they've built, then look at them properly.
 
-Don't just look at screenshots — visit the actual live websites.
+Open them on your phone first. Does the layout hold up? Can you read the text without zooming in? Do the buttons work and lead somewhere meaningful? Most Malaysian web traffic is mobile — a designer who doesn't prioritize phone experience isn't someone you want building your site.
 
-### 2. Check Their SEO Knowledge
+Check loading speed. Google's PageSpeed Insights is free — paste in a URL and it gives you a score. Anything below 60 on mobile is a red flag. A properly built site should hit 80 or above.
 
-A beautiful website that nobody can find on Google is useless. Your web designer should understand:
+Look at the design honestly. Does it feel current, or does it look like a template with the demo text barely changed? Generic isn't automatically bad, but if you can see the template seams, their "customization" probably isn't going very deep.
 
-- **On-page SEO** (title tags, meta descriptions, heading structure)
-- **Technical SEO** (page speed, mobile-friendliness, site structure)
-- **URL structure** (clean, keyword-rich URLs)
-- **Google Search Console** setup
 
-Ask them: "How will you optimize my website for Google?" If they give a vague answer, look elsewhere.
+### 2. Ask About SEO — and Push Past the Vague Answer
 
-### 3. Understand the Full Scope
+Don't ask "do you do SEO" — most people say yes regardless of what they actually know. Instead, ask specifically: "What does your standard SEO setup include?"
 
-Many designers quote low prices but charge extra for:
-- Domain registration
-- Web hosting
-- SSL certificate
-- Content writing
-- Post-launch changes
+A solid answer touches on: keyword-optimized page titles, meta descriptions, clean heading hierarchy, structured URLs, image optimization, site speed, and connecting the site to Google Search Console. A great answer also mentions internal linking and mobile performance.
 
-Get a detailed quote that covers everything you need. At Among Web, we believe in transparent pricing — no hidden fees.
+A vague answer — "yes, we make sure Google can find your site" — means nothing. A website with poor SEO foundations is effectively invisible on Google no matter how good it looks.
 
-### 4. Discuss Ownership and Access
 
-You must own your website. Before signing, confirm:
+### 3. Get the Scope in Writing Before You Pay
 
-- You will have full admin access to the website
-- The domain will be registered in your name
-- You'll receive all login credentials at project completion
-- Hosting is in your control
+A proper written quote should cover:
+- What's included: specific pages, features, revision rounds
+- What's NOT included: hosting, domain registration, content writing — get explicit clarity on these
+- Delivery timeline: first draft, final delivery
+- Post-launch terms: bug fix warranty, support availability
 
-Some unethical designers hold websites "hostage" to force clients into expensive maintenance contracts.
+"I thought it included the product upload" vs. "I only quoted for design" is a very common and very avoidable dispute. Any reputable designer is happy to put the scope in writing. Someone resistant to doing so is worth being cautious about.
 
-### 5. Communication Style
 
-The best technical skills don't matter if communication is poor. Check:
+### 4. Confirm You'll Actually Own the Website
 
-- **Response time** – Do they reply within 24 hours?
-- **Clarity** – Can they explain technical things in simple terms?
-- **Availability** – Are they reachable during Malaysia business hours?
-- **After-sales** – What support do they offer after launch?
+This comes up more than it should.
 
-### Red Flags to Avoid
+Before signing anything, confirm in writing:
+- The domain will be registered under **your name and email address**
+- You'll receive admin access to the CMS at project completion
+- Hosting is either on your account or you'll have full access credentials
+- All login details are handed over at handover
 
-🚩 No portfolio or examples of past work
-🚩 Prices that seem too good to be true (RM50 for a "full website")
-🚩 Poor communication or slow responses
-🚩 No written contract or agreement
-🚩 No clear timeline or deliverables
+Some designers register domains in their own name or host sites on their personal server as a way to keep clients dependent on them. Any trustworthy designer will confirm a clean credential handover without hesitation. If they push back on this, that tells you something important.
 
-### Why Choose Among Web
 
-At Among Web, we tick every box:
-- ✅ Real portfolio with 50+ Malaysian clients
-- ✅ SEO-optimized websites built to rank
-- ✅ Transparent pricing from RM99
-- ✅ Fast responses via WhatsApp
-- ✅ You own everything – full credentials handed over
+### 5. Watch How They Communicate Before You Pay
 
-[Contact us today](/contact) to discuss your project.
+Send them a message. How fast do they reply? Is the response actually helpful, or generic?
+
+Pay attention to whether they ask questions about your business. A designer who jumps straight to sending you package options without understanding what you do, who your customers are, and what you want the website to achieve — probably isn't going to think carefully about your specific situation during the project either.
+
+Good communication before you pay is a reliable preview of communication during the project. If it takes three days to reply to an initial enquiry, that's your answer for every feedback round that follows.
+
+
+### Red Flags Worth Knowing
+
+- No portfolio, or only screenshots with no live links
+- Price that simply doesn't add up (RM80 for a "full website with SEO")
+- Unwilling to confirm you'll own the domain and credentials
+- No written agreement, just verbal promises on WhatsApp
+- Can't explain specifically what SEO work they do
+- Doesn't ask anything about your business before quoting
+
+
+At Among Web, full credential handover at project completion is standard practice. We write a project scope before every build and connect Google Search Console on every website we deliver. If you'd like to see how we work, [send us a message](/contact) — happy to answer any questions before you decide.
     `.trim(),
   },
   {
@@ -333,87 +305,94 @@ At Among Web, we tick every box:
     title: 'RM99 Website: What Exactly Do You Get?',
     excerpt:
       "Curious about Among Web's RM99 landing page offer? Here's exactly what's included, what the process looks like, and why it's the best value web design deal in Malaysia.",
-    date: '2024-01-10',
+    date: '2026-01-10',
     readTime: '4 min read',
     category: 'Services',
-    image: '/blog/rm99-website.jpg',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80&auto=format&fit=crop',
     tags: ['RM99', 'landing page', 'malaysia', 'affordable'],
     author: 'Among Web',
     content: `
 ## RM99 Website: What Exactly Do You Get?
 
-Our RM99 landing page offer is designed for Malaysian businesses that need to get online quickly and affordably. Let's break down exactly what you get.
+People see the price and assume something must be missing. Fair instinct — but let's go through exactly what's included and what isn't, so there are no surprises either way.
 
-### What's Included in the RM99 Landing Page
 
-**1. Professional 1-Page Design**
-A fully custom-designed landing page — not a cheap template. We design based on your brand colors, logo, and industry.
+### What's Included
 
-**2. Mobile-Responsive Layout**
-Your website will look perfect on phones, tablets, and desktops. Over 70% of Malaysian web traffic is mobile — we make sure you don't miss them.
+**A real, custom design — not a swapped-out template**
 
-**3. WhatsApp Integration**
-A prominent WhatsApp button that lets visitors contact you instantly. This is the highest-converting CTA for Malaysian businesses.
+We design based on your brand: your colors, your logo, your industry. Not a theme with the demo content replaced and a different company name dropped in. The layout is built around your actual business and your actual goal — usually getting people to call or WhatsApp you.
 
-**4. Contact Form**
-A simple contact form that sends enquiries directly to your email.
+**Fully mobile-responsive**
 
-**5. Google Maps Integration**
-If you have a physical location, we'll embed Google Maps so customers can find you easily.
+This isn't optional — it's the baseline. Most web traffic in Malaysia comes through phones. Your site gets tested across screen sizes before delivery, so it doesn't just look decent on a laptop and break on everything else.
 
-**6. SEO-Optimized Structure**
-Proper title tags, meta descriptions, and heading structure to maximize your Google visibility.
+**WhatsApp button integration**
 
-**7. Fast Loading Speed**
-Optimized images and clean code ensure your page loads in under 2 seconds — important for both user experience and Google ranking.
+For most Malaysian businesses, WhatsApp is where enquiries become conversations become actual deals. We put a prominent, working WhatsApp button on the page so visitors can reach you in one tap.
 
-**8. Basic Google Analytics Setup**
-Track how many people visit your site and where they come from.
+**Contact form**
 
-### What's NOT Included (Add-ons Available)
+A simple form that sends enquiries directly to your email. For visitors who'd rather not WhatsApp cold, this is the alternative path.
 
-- Domain registration (RM40–60/year) – can be handled separately
-- Web hosting (RM15–30/month) – we can recommend providers
-- Content writing (available as add-on)
-- Multiple pages (upgrade to company website package)
-- E-commerce functionality
+**Google Maps embed**
 
-### The Process: From RM99 to Live Website in 3 Days
+If you have a physical location, we embed your map so customers can find you easily — and so Google can associate your site with your local address.
 
-**Day 1**: You fill out our onboarding form with your business details, preferred colors, and content. We start designing immediately.
+**SEO-ready structure**
 
-**Day 2**: We present the first draft via WhatsApp or a preview link. You give feedback and request changes.
+Proper page title, meta description, heading hierarchy, clean URL, image optimization. The fundamentals that let Google find and make sense of your page. We also connect the site to Google Search Console at launch.
 
-**Day 3**: Final revisions, testing, and launch. Your website goes live!
+**Google Analytics**
 
-### Is RM99 Really Enough?
+Basic visitor tracking set up from day one, so you can see how many people are landing on your site and where they're coming from.
 
-For a landing page, absolutely. Here's what RM99 can do for your business:
 
-- Appear in Google Search for local keywords
-- Build credibility and trust with potential customers
-- Generate WhatsApp leads 24/7, even while you sleep
-- Save you money vs paying for ads with no destination
+### What's NOT Included
 
-### Who is This For?
+Being upfront about this:
 
-Our RM99 landing page is perfect for:
-- Home-based businesses (food, crafts, services)
-- Freelancers and consultants
-- New startups testing a market
-- Businesses wanting a simple presence for WhatsApp profilesPagination
-- Single product or service promotions
+**Domain registration** (RM40–60/year) — registered in your name. We'll walk you through it or handle it on your behalf at cost. The domain stays yours.
 
-### Ready to Get Started?
+**Web hosting** (RM15–30/month) — we recommend good, affordable providers and can help you set up, billed directly to you.
 
-Getting your RM99 landing page takes less than 5 minutes to initiate. Just send us a WhatsApp message with:
-1. Your business name
-2. What you sell
-3. Your target audience
+**Content writing** — we need your text, or you can add content writing as a separate service.
 
-We'll handle the rest and have your site live within 3 days.
+**Multiple pages** — this is a one-page landing page. A multi-page company website is a separate, larger project.
 
-[Chat on WhatsApp Now →](https://wa.me/60123456789)
+None of these are hidden costs — they're just separate line items you should know about before we start.
+
+
+### The Timeline: How 3 Days Actually Works
+
+**Day 1** — You fill out a short onboarding form: business name, what you do, who your customers are, your content text, brand colors or any existing materials. We start the same day.
+
+**Day 2** — We send a preview link. You look through it and tell us what to change — colors, wording, layout, anything. We revise until you're satisfied.
+
+**Day 3** — Final version gets a pre-launch check, and we help you point your domain to the live site. It goes up.
+
+Most of the back-and-forth happens over WhatsApp, which keeps the whole project moving quickly without long gaps.
+
+
+### Is a One-Page Site Actually Worth Having?
+
+Yes — if it's properly built and focused.
+
+A well-made landing page can appear in Google local search when people look up your business or your type of service in your area. It gives you a professional link to put in your WhatsApp bio, on a business card, in email signatures. It captures enquiries while you're asleep, in a meeting, or just busy.
+
+It's not a substitute for a full company website as your business grows — but it's a real, working online presence. For a lot of early-stage businesses, it's exactly the right starting point. Go live, generate leads, and upgrade once you're ready.
+
+
+### Getting Started
+
+Send us a WhatsApp with:
+1. Your business name and what you offer
+2. Who your typical customer is
+3. Any color preferences or existing branding
+
+We'll confirm the project, send you the onboarding form, and have your site live within 3 days.
+
+[Chat on WhatsApp →](https://wa.me/60123456789)
     `.trim(),
   },
   {
@@ -425,233 +404,137 @@ We'll handle the rest and have your site live within 3 days.
     date: '2026-03-27',
     readTime: '8 min read',
     category: 'Web Design',
-    image: '/blog/website-cost-malaysia.jpg',
+    image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80&auto=format&fit=crop',
     tags: ['website cost malaysia', 'web design price malaysia', 'cheap website malaysia', 'web design', 'malaysia'],
     author: 'Among Web',
     content: `
 ## How Much Does a Website Cost in Malaysia? (2026 Complete Guide)
 
-If you've been Googling "website cost Malaysia" or asking around on Facebook groups, you've probably gotten wildly different answers — from RM200 to RM20,000. That's confusing, and often misleading.
+If you've been Googling this, you've probably already come across prices anywhere from RM150 to RM20,000 with no real explanation of what separates them. That gap isn't random — but it's also not purely about quality. It's about the type of project, the experience of the person quoting, and in some cases, how well a seller knows how to look credible while cutting corners.
 
-This guide cuts through the noise. Whether you're a small business owner in KL, a property agent in Penang, or an SME owner looking for an affordable online presence — you'll get clear, honest pricing information and know exactly what to expect.
+Here's an honest breakdown.
 
----
 
-## What Is the Average Website Cost in Malaysia in 2026?
+## What You'll Actually Pay in 2026
 
-Here's a quick reference table for web design price in Malaysia:
+| Website Type | Realistic Range | Typical Delivery |
+|---|---|---|
+| Landing Page | RM300 – RM700 | 3–5 days |
+| Company Website (5–8 pages) | RM800 – RM3,500 | 7–14 days |
+| E-Commerce Store | RM2,000 – RM8,000 | 14–30 days |
+| Booking System | RM3,000 – RM10,000 | 4–8 weeks |
+| Custom Web Application | RM8,000 – RM50,000+ | 2–6 months |
 
-| Website Type | Price Range | Delivery Time | Best For |
-|---|---|---|---|
-| Landing Page | RM99 – RM500 | 3–5 days | New businesses, freelancers, lead generation |
-| Company Website (5–8 pages) | RM499 – RM3,000 | 7–14 days | SMEs, professional services |
-| E-Commerce Store | RM999 – RM8,000 | 14–30 days | Online retail, product sellers |
-| Custom Web Application | RM5,000 – RM50,000+ | 1–6 months | Startups, enterprise solutions |
+These are real market figures. Quotes significantly below these ranges usually involve trade-offs somewhere — SEO, mobile optimization, code quality, or post-launch support. Quotes significantly above (from agencies with several layers of management) often include coordination overhead that most Malaysian SMEs don't actually need.
 
-These are realistic market rates. Any quote dramatically lower or higher than these ranges deserves scrutiny.
 
----
+## What Each Type Actually Gets You
 
-## Breaking Down the Different Types of Websites
+### Landing Page (RM300–RM700)
 
-### Landing Page (RM99 – RM500)
+A landing page is a single-page site built around one goal: get the visitor to take a specific action. Call you, WhatsApp you, submit a form. Everything on the page is designed around that one action — no navigation pulling them off to unrelated sections, no blog, no team page.
 
-A landing page is a single-page website built around one goal: convert visitors into leads or customers. It typically includes:
+For new businesses, freelancers, and anyone who needs a professional online presence without a large upfront spend, a landing page is almost always the right starting point. One good client who finds you through it pays for the whole thing.
 
-- Your business name, tagline, and hero section
-- Services or products offered
-- Testimonials or social proof
-- Contact form and WhatsApp button
-- Google Map (if you have a physical location)
+At Among Web, our landing pages start at RM599 — mobile-responsive, SEO-optimized, and live within 3 days.
 
-**Who it's for:** Home-based businesses, freelancers, new startups, single-product sellers, and anyone who needs to get online fast without a big budget.
 
-**At Among Web**, our landing page starts at just **RM99** — fully mobile-responsive, SEO-optimized, and delivered in 3 days. It's the most affordable way to get a professional online presence in Malaysia.
+### Company Website (RM800–RM3,500)
 
----
+Most established Malaysian SMEs land here. A company website covers your services, your story, your portfolio or team, and a contact page — giving visitors the space to understand your business before reaching out.
 
-### Company Website (RM499 – RM3,000)
+The price difference within this range isn't just about number of pages. A RM900 site built on a barely-customized theme and a RM2,500 site with proper custom design and real SEO can look similar in a screenshot. In Google search results and in conversion rate, they usually perform very differently.
 
-A company website typically has 5–8 pages: Home, About, Services, Portfolio, Blog, and Contact. This is what most established Malaysian SMEs need to look credible online.
 
-For **RM499 – RM1,500**, you can expect:
-- A professionally designed multi-page site
-- Mobile-responsive on all devices
-- Basic SEO setup
-- Contact form and social media links
+### E-Commerce Website (RM2,000–RM8,000)
 
-For **RM1,500 – RM3,000**, you typically get:
-- Custom design (not just a template)
-- Blog or news section
-- Advanced SEO and speed optimization
-- Multiple service or product pages
+Selling online is more complex than displaying information. Product listings, shopping cart, payment gateway (eGHL, Billplz, Stripe, iPay88 are all in use in Malaysia), inventory management, order notifications — done properly, it takes real development time.
 
-**Who it's for:** Established businesses, professional services (accounting firms, clinics, law offices), F&B, contractors, and anyone needing multiple pages.
+A basic WooCommerce or Shopify store for a small catalog fits in the lower end of that range. Custom design, large product volumes, or third-party system integrations push the cost higher.
 
----
 
-### E-Commerce Website (RM999 – RM8,000)
+### Booking Systems and CRM (RM3,000–RM10,000+)
 
-Selling products online requires more complexity — product listings, shopping cart, payment gateway integration (like eGHL, Billplz, or Stripe Malaysia), and order management. This is why e-commerce costs more.
+For appointment-based businesses — clinics, salons, tutors, gyms, consultants — a booking system built into your website removes a significant amount of admin work. Customers self-schedule, get automated confirmations and reminders, and no-shows drop. Payments can be collected at booking time.
 
-For **RM999 – RM2,500**, you get:
-- Platform-based store (WooCommerce or Shopify)
-- Up to 20–50 product listings
-- Malaysian payment gateway integration
-- Basic inventory management
+CRM solutions are custom-built for specific sales workflows. The range is wide because these are purpose-built tools, not off-the-shelf products.
 
-For **RM2,500 – RM8,000+**, expect:
-- Fully custom design
-- Unlimited products
-- Advanced filtering and search
-- Customer accounts and order history
 
-**Who it's for:** Retail businesses, food brands, fashion sellers, beauty products, and any business selling physical or digital goods online.
+## What Actually Makes the Price Go Up or Down
 
----
+**Template vs. custom design**
 
-## What Affects Website Cost in Malaysia?
+A quality template that's been properly customized to your brand can look excellent and cost significantly less than a from-scratch custom build. What to watch out for: minimal customization where the template structure is obvious and your site looks like 200 other sites built on the same theme. Ask to see live examples and look honestly at them.
 
-Several factors push the price up or down. Here's what designers look at when quoting you:
+**Features and functionality**
 
-### 1. Number of Pages
-More pages = more design, development, and content work. A 1-page landing page is naturally cheaper than a 10-page company site.
+This moves the needle more than anything else. A floating WhatsApp button takes 20 minutes. A calendar-based booking system with email and SMS reminders takes two weeks. Don't be surprised when a detailed feature list results in a higher quote — the development time is real.
 
-### 2. Design Approach
-- **Template-based**: Designer picks an existing template and customizes it. Faster and cheaper.
-- **Custom design**: Built from scratch to match your brand. More expensive but more unique.
+**SEO — whether it's real or just a checkbox**
 
-### 3. Features and Functionality
-A simple contact form takes 30 minutes to set up. A booking system, member portal, or custom calculator can take days. The more complex the feature, the higher the cost.
+On-page SEO (structured headings, optimized titles, fast loading, clean URLs, Search Console setup) should be included in any professional build. But "SEO included" can mean anything from a full technical setup to someone just making sure the page title is filled in. Ask specifically what's covered. The answer tells you a lot.
 
-### 4. SEO and Content
-Basic on-page SEO (title tags, headings, meta descriptions) is usually included in decent packages. Full keyword research, content writing, and off-page SEO cost extra — but they're worth it.
+**Revisions and scope clarity**
 
-### 5. Revision Rounds
-Most designers include 2–3 rounds of revisions. Unlimited revisions or complex change requests will cost more.
+Most projects include 2–3 revision rounds. Changes outside the agreed scope are usually extra — fairly so. Getting clear on what's in scope before work starts saves both sides from a difficult conversation later.
 
-### 6. Ongoing Maintenance
-Monthly maintenance packages (RM50–RM300/month) cover updates, backups, and security monitoring. Not required but recommended for active business sites.
 
----
+## The "Cheap Website" Trap
 
-## Cheap Website Malaysia: What Are You Really Getting?
+When you see a "full website" offered at RM80 or RM150, here's what you're usually getting: a recycled theme with your company name swapped in, stock photos from a generic library, page titles that still say the theme demo's default text, no Google Search Console, and no real mobile testing. Often, the domain is registered in the designer's name — not yours.
 
-Searching for "cheap website Malaysia" will surface offers at RM50, RM80, or RM150 for a "full website." These sound tempting, but here's what you need to know.
+The deeper problem isn't just that it looks cheap. It's that it won't rank on Google, won't convert visitors, and when something goes wrong six months later, you'll be starting from scratch anyway. The RM100 website ends up costing RM100 plus whatever you spend rebuilding it properly.
 
-### What Cheap Usually Means
+Cheap and affordable aren't the same thing. A RM599 landing page from a competent designer is affordable. A RM100 "full website" from an unknown seller is cheap — and almost certainly more expensive in the long run.
 
-- A recycled template with your name swapped in
-- Stock photos instead of your actual business images
-- No SEO optimization (your site will never rank on Google)
-- Slow loading speed (bad for UX and rankings)
-- No post-launch support — you're on your own after launch
-- Hosted on the designer's server (they control your site)
 
-### The Real Cost of Going Too Cheap
+## Freelancer vs. Agency — Honest Assessment
 
-Imagine paying RM100 for a website that:
-- Never appears on Google
-- Looks exactly like 500 other businesses (same template)
-- Breaks if you try to make changes
-- Gets taken offline because the designer stopped paying hosting
+For most Malaysian SMEs, a skilled freelance web designer is better value than an agency.
 
-Now you need to redo everything. The "cheap" website just cost you RM100 + another RM800 to fix it. **Total: RM900 for something you could have built right for RM499 the first time.**
+You communicate directly with the person doing the work. There's no account manager translating your feedback to a project manager translating it to a developer. Less overhead means lower cost, faster decisions, and usually faster delivery.
 
-### Common Mistakes Malaysian Business Owners Make
+Agencies make sense when you genuinely need multiple specialists coordinating in parallel on a large, time-sensitive project. For a company website or landing page, that coordination overhead isn't producing additional value — you're still paying for it.
 
-**1. Choosing based on price alone**
-The cheapest quote is rarely the best value. Ask for the portfolio, not just the price.
+The catch: finding a freelancer who has the full skillset. Design, development, and real SEO knowledge. If they outsource pieces they can't do, you get handoff problems and a slower project.
 
-**2. Not checking mobile responsiveness**
-Over 70% of Malaysian web traffic is on mobile. If the site doesn't look good on phones, you're losing most of your visitors.
 
-**3. Not owning their own domain**
-Some designers register the domain in their own name. If you have a dispute, they can take your domain. Always register your domain in your OWN name.
+## Frequently Asked Questions
 
-**4. Skipping SEO entirely**
-A website nobody can find is just an expensive business card. At minimum, ensure proper title tags, meta descriptions, and heading structure.
+**How much does a basic business website cost in Malaysia?**
 
-**5. No clear timeline or deliverables**
-Always get a written agreement covering: what's included, number of revisions, delivery date, and what happens after launch.
+A proper 5–7 page company website with mobile-responsive design and basic SEO typically costs RM800–RM1,500 from a competent freelance designer. Below that range, ask specific questions about what's actually included.
 
----
+**Can I get a decent website for RM300–RM700?**
 
-## Freelancer vs Agency: Which is Better Value in Malaysia?
+As a landing page, yes. A single-page site focused on one goal can be done well in that budget. Just be honest about what a landing page is — it won't have multiple pages, a blog, or a portfolio section.
 
-### Freelance Web Designer
-- **Cost:** 30–60% cheaper than agencies
-- **Communication:** Direct — you talk to the person building your site
-- **Speed:** Usually faster, less bureaucracy
-- **Best for:** SMEs, small businesses, tight budgets, straightforward projects
+**What ongoing costs should I budget for?**
 
-### Web Design Agency
-- **Cost:** Typically RM3,000 – RM30,000+ for a project
-- **Team:** Multiple specialists (designer, developer, copywriter, SEO)
-- **Process:** More structured, usually involves account managers
-- **Best for:** Large enterprises, complex projects, ongoing retainer relationships
+Domain registration (RM40–60/year), web hosting (RM180–600/year), and optionally a monthly maintenance package (RM50–300/month) for updates, security, and backups.
 
-**Verdict:** For most Malaysian SMEs and small businesses, a skilled freelance web designer offers the best value. You get professional quality at 40–60% less than agency rates.
+**Is custom design worth the extra cost?**
 
----
+For most small businesses, a properly customized template is fine. Custom design becomes worth it once you're at a scale where visual brand differentiation gives you a real competitive advantage — premium pricing, a crowded market, an established brand identity worth protecting.
 
-## FAQ: Website Cost Malaysia
+**How long does a website take to build?**
 
-### Q: How much does a simple business website cost in Malaysia?
-A basic company website with 5–7 pages typically costs between **RM499 and RM1,500** from a freelance web designer in Malaysia. This includes home, about, services, and contact pages with mobile-responsive design and basic SEO.
+Landing page: 3–5 days. Company website: 7–14 days. E-commerce: 14–30 days. Custom web application: 1–6 months.
 
-### Q: Can I get a website for RM99 in Malaysia?
-Yes. A **landing page** (single-page website) can be built for RM99. It won't have multiple pages or a blog, but it gives you a professional online presence with WhatsApp integration and basic SEO — perfect for new businesses or freelancers.
 
-### Q: How much does an e-commerce website cost in Malaysia?
-E-commerce websites in Malaysia typically cost between **RM999 and RM8,000** depending on the number of products, payment gateway requirements, and design complexity. A basic WooCommerce or Shopify store starts around RM999.
+## Where to Start
 
-### Q: Is it worth paying more for a custom design?
-For most small businesses, a well-customized template is perfectly fine. Custom designs (RM2,000+) make more sense for established brands where a unique visual identity is important to differentiate from competitors.
+- **New business or limited budget** → landing page, RM300–700, get online fast
+- **Established SME needing credibility** → company website, RM800–RM2,500
+- **Selling products or services online** → e-commerce, RM2,000–RM5,000
+- **Appointment-based or lead-driven business** → booking system, custom quote
 
-### Q: What ongoing costs should I budget for?
-Beyond the one-time design fee, budget for:
-- **Domain**: RM40–RM60/year
-- **Hosting**: RM180–RM600/year
-- **SSL certificate**: Usually free with modern hosts
-- **Maintenance** (optional): RM50–RM300/month
+Whatever your budget, the things worth spending on are consistent: real SEO setup, proper mobile optimization, and owning your own domain and hosting from day one. A website is a long-term business asset — it should generate leads and build trust, not just appear on your name card.
 
-### Q: How long does it take to build a website in Malaysia?
-- Landing page: 3–5 days
-- Company website: 7–14 days
-- E-commerce: 14–30 days
-- Custom web app: 1–6 months
 
-### Q: What's the difference between cheap web design and affordable web design?
-**Cheap** means cutting corners — poor code, no SEO, no support. **Affordable** means fair pricing for quality work. A RM99 landing page from a professional designer is affordable. A RM99 "full 10-page website" from an unknown seller is cheap — and risky.
+At Among Web, we build for Malaysian businesses of all sizes. Send us a WhatsApp with a brief description of your business and what you need the website to do — we'll give you a straight quote, usually within the hour.
 
----
-
-## Summary: What Should You Pay?
-
-- Need to get online fast with a small budget? → **Landing page at RM99–RM500**
-- Running an established SME and need credibility? → **Company website at RM499–RM1,500**
-- Selling products online? → **E-commerce at RM999–RM3,000**
-- Building a complex platform? → **Custom development from RM5,000+**
-
-Whatever your budget, invest in quality. A website is a business asset — it should generate leads and build trust, not just fill up a line on your name card.
-
----
-
-## Get Your Website Built — Starting from RM99
-
-At **Among Web**, we build fast, mobile-friendly, SEO-optimized websites for Malaysian businesses of all sizes.
-
-- ✅ Landing pages from **RM99**
-- ✅ Company websites from **RM499**
-- ✅ E-commerce from **RM999**
-- ✅ Delivered in as little as **3 days**
-- ✅ WhatsApp support throughout the project
-- ✅ You own everything — full credentials handed over
-
-Ready to get your business online? **Chat with us on WhatsApp now** and we'll give you a free quote within the hour.
-
-[Get a Free Quote on WhatsApp →](https://wa.me/60123456789?text=Hi%20Among%20Web%2C%20I%20want%20to%20know%20more%20about%20website%20pricing)
+[Get a free quote →](https://wa.me/60123456789?text=Hi%20Among%20Web%2C%20I'd%20like%20a%20quote%20for%20a%20website)
     `.trim(),
   },
 ]

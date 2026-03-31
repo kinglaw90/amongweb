@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import ContactForm from '@/components/ContactForm'
 import { SITE_URL, WHATSAPP_URL, COMPANY_EMAIL, COMPANY_LOCATION } from '@/lib/constants'
 
@@ -6,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Contact Us – Get a Free Web Design Quote in Malaysia',
   description:
     'Get in touch with Among Web for a free web design consultation and quote. Based in Malaysia, serving businesses across KL, Selangor, Penang, Johor and nationwide.',
+  alternates: { canonical: `${SITE_URL}/contact` },
   openGraph: {
     title: 'Contact Among Web – Free Web Design Quote Malaysia',
     description:
@@ -18,14 +20,27 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <div className="page-hero">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="section-tag">Contact Us</span>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-5">
-            Let's Build Something Great Together
+      <div className="relative overflow-hidden bg-slate-950 pt-32 pb-24">
+        <div className="absolute inset-0" aria-hidden="true">
+          <Image
+            src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600&q=80&auto=format&fit=crop"
+            alt=""
+            fill
+            className="object-cover opacity-20"
+            sizes="100vw"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/80 to-slate-950" />
+        </div>
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-blue-400 mb-5">
+            Contact Us
+          </span>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6 tracking-tight">
+            Let&apos;s Build Something Great Together
           </h1>
-          <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-            Tell us about your project. We'll get back to you within 24 hours with a free quote and consultation.
+          <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
+            Tell us about your project. We&apos;ll get back to you within 24 hours with a free quote and consultation.
           </p>
         </div>
       </div>

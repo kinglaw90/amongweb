@@ -12,14 +12,17 @@ interface FormData {
 }
 
 const services = [
-  'Landing Page (RM99)',
-  'Company Website (RM499+)',
-  'E-Commerce Website (RM999+)',
-  'Web Application (Custom)',
+  'Landing Page (RM 599)',
+  'Company Website (RM 1,499+)',
+  'E-Commerce Website (RM 2,999+)',
+  'CMS Website (RM 1,999+)',
+  'Booking System (RM 3,499+)',
+  'CRM System (Custom Quote)',
+  'Web Application (Custom Quote)',
   'Not sure yet',
 ]
 
-const budgets = ['RM99 – RM499', 'RM500 – RM999', 'RM1,000 – RM3,000', 'RM3,000+']
+const budgets = ['RM 500 – RM 999', 'RM 1,000 – RM 2,999', 'RM 3,000 – RM 5,999', 'RM 6,000+']
 
 export default function ContactForm() {
   const [form, setForm] = useState<FormData>({
