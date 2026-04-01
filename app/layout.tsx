@@ -94,7 +94,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <WhatsAppButton />
         </ThemeProvider>
       </body>
-      <GoogleAnalytics gaId="G-10596907647" />
+      <GoogleAnalytics gaId="G-XY6Y4H9TJW" />
     </html>
   )
 }
