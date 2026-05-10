@@ -24,9 +24,20 @@ export default function PortfolioCard({ item, priority = false }: PortfolioCardP
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         {/* View project button */}
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <span className="bg-white text-slate-900 font-semibold text-sm px-5 py-2.5 rounded-full shadow-lg">
-            View Project
-          </span>
+          {item.url ? (
+            <a
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-slate-900 font-semibold text-sm px-5 py-2.5 rounded-full shadow-lg hover:bg-slate-100 transition-colors"
+            >
+              View Project
+            </a>
+          ) : (
+            <span className="bg-white text-slate-900 font-semibold text-sm px-5 py-2.5 rounded-full shadow-lg">
+              View Project
+            </span>
+          )}
         </div>
       </div>
 

@@ -21,8 +21,8 @@ export const portfolioItems: PortfolioItem[] = [
     mobileImage: '/portfolio/alfa-hydraulic-mobile.png',
     description:
       'Professional company website for a hydraulic equipment supplier in Malaysia. Clean layout showcasing products and services.',
-    url: '#',
-    technologies: ['WordPress', 'WooCommerce', 'Elementor'],
+    url: 'https://new.alfa-hyd.com/',
+    technologies: ['WordPress', 'Avada', 'Custom Theme'],
     featured: true,
   },
   {
@@ -34,8 +34,8 @@ export const portfolioItems: PortfolioItem[] = [
     mobileImage: '/portfolio/amosys-mobile.png',
     description:
       'Modern business website for a technology solutions company in Malaysia. Fast, clean and fully responsive.',
-    url: '#',
-    technologies: ['Next.js', 'Tailwind CSS', 'Vercel'],
+    url: 'https://www.amosys.com.my/',
+    technologies: ['Custom Design', 'ASP.net', 'Animation'],
     featured: true,
   },
   {
@@ -47,8 +47,8 @@ export const portfolioItems: PortfolioItem[] = [
     mobileImage: '/portfolio/dureraholding-mobile.png',
     description:
       'Elegant corporate website for a holding company. Designed to communicate professionalism and trust.',
-    url: '#',
-    technologies: ['WordPress', 'Elementor Pro'],
+    url: 'https://www.dureraholdings.com/',
+    technologies: ['WordPress', 'Avada', 'Elementor Pro'],
     featured: true,
   },
   {
@@ -60,7 +60,7 @@ export const portfolioItems: PortfolioItem[] = [
     mobileImage: '/portfolio/limwongco-mobile.png',
     description:
       'Clean and professional website for a chartered accounting firm in Malaysia. Builds credibility and drives enquiries.',
-    url: '#',
+    url: 'https://limbrother.com/',
     technologies: ['WordPress', 'Custom Theme', 'SEO'],
     featured: true,
   },
@@ -73,8 +73,8 @@ export const portfolioItems: PortfolioItem[] = [
     mobileImage: '/portfolio/mydma-mobile.png',
     description:
       'Dynamic website for a digital marketing agency. Conversion-focused layout with lead generation forms.',
-    url: '#',
-    technologies: ['React', 'Node.js', 'MongoDB'],
+    url: 'https://my-dma.org.my/',
+    technologies: ['WordPress', 'Custom Design', 'Lead Generation'],
     featured: true,
   },
   {
@@ -86,8 +86,8 @@ export const portfolioItems: PortfolioItem[] = [
     mobileImage: '/portfolio/uptownkiosk-mobile.png',
     description:
       'E-commerce website for a retail kiosk business in Malaysia. Seamless shopping experience across all devices.',
-    url: '#',
-    technologies: ['WooCommerce', 'Stripe', 'Cloud Hosting'],
+    url: 'https://web.uptownkiosk.com/',
+    technologies: ['WordPress', 'Custom Design'],
   },
   {
     id: 7,
@@ -98,7 +98,7 @@ export const portfolioItems: PortfolioItem[] = [
     mobileImage: '/portfolio/vendfun-mobile.png',
     description:
       'Online marketplace platform for vending machine solutions in Malaysia. Full-stack development with custom features.',
-    url: '#',
-    technologies: ['Next.js', 'Prisma', 'PostgreSQL'],
+    url: 'https://www.vendfun.com/',
+    technologies: ['WordPress', 'Custom Design', 'Marketplace Features'],
   },
 ]

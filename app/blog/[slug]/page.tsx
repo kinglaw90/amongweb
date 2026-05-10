@@ -166,6 +166,18 @@ export default async function BlogPostPage({ params }: Props) {
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-12">
             {/* Main content */}
             <article className="prose-content max-w-none">
+              {/* Featured Image */}
+              <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden mb-10">
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 700px"
+                  priority
+                />
+              </div>
+
               {renderContent(post.content)}
 
               {/* Tags */}

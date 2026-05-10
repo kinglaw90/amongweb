@@ -19,6 +19,7 @@ export const metadata: Metadata = {
 const serviceGrid = [
   {
     id: 'landing',
+    slug: 'landing-page',
     title: 'Landing Page',
     tagline: 'Convert visitors into leads, fast.',
     image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?w=1200&q=85&auto=format&fit=crop',
@@ -26,6 +27,7 @@ const serviceGrid = [
   },
   {
     id: 'company',
+    slug: 'company-website',
     title: 'Company Website',
     tagline: 'Your full brand story, online.',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=85&auto=format&fit=crop',
@@ -33,6 +35,7 @@ const serviceGrid = [
   },
   {
     id: 'ecommerce',
+    slug: 'ecommerce-store',
     title: 'E-Commerce Store',
     tagline: 'Sell 24/7 with zero friction.',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=85&auto=format&fit=crop',
@@ -40,6 +43,7 @@ const serviceGrid = [
   },
   {
     id: 'cms',
+    slug: 'cms-website',
     title: 'CMS Website',
     tagline: 'Manage your content yourself.',
     image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&q=85&auto=format&fit=crop',
@@ -47,6 +51,7 @@ const serviceGrid = [
   },
   {
     id: 'booking',
+    slug: 'booking-system',
     title: 'Booking System',
     tagline: 'Let customers schedule themselves.',
     image: 'https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=800&q=85&auto=format&fit=crop',
@@ -54,6 +59,7 @@ const serviceGrid = [
   },
   {
     id: 'crm',
+    slug: 'crm-system',
     title: 'CRM System',
     tagline: 'Never lose a lead again.',
     image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=85&auto=format&fit=crop',
@@ -61,6 +67,7 @@ const serviceGrid = [
   },
   {
     id: 'webapp',
+    slug: 'web-application',
     title: 'Web Application',
     tagline: 'Custom-built to your exact specs.',
     image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=85&auto=format&fit=crop',
@@ -120,13 +127,13 @@ export default function ServicesPage() {
     name: 'Web Design Services in Malaysia',
     url: `${SITE_URL}/services`,
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Landing Page Design', url: `${SITE_URL}/services#landing` },
-      { '@type': 'ListItem', position: 2, name: 'Company Website', url: `${SITE_URL}/services#company` },
-      { '@type': 'ListItem', position: 3, name: 'E-Commerce Store', url: `${SITE_URL}/services#ecommerce` },
-      { '@type': 'ListItem', position: 4, name: 'CMS Website', url: `${SITE_URL}/services#cms` },
-      { '@type': 'ListItem', position: 5, name: 'Booking System', url: `${SITE_URL}/services#booking` },
-      { '@type': 'ListItem', position: 6, name: 'CRM System', url: `${SITE_URL}/services#crm` },
-      { '@type': 'ListItem', position: 7, name: 'Web Application', url: `${SITE_URL}/services#webapp` },
+      { '@type': 'ListItem', position: 1, name: 'Landing Page Design', url: `${SITE_URL}/services/landing-page` },
+      { '@type': 'ListItem', position: 2, name: 'Company Website', url: `${SITE_URL}/services/company-website` },
+      { '@type': 'ListItem', position: 3, name: 'E-Commerce Store', url: `${SITE_URL}/services/ecommerce-store` },
+      { '@type': 'ListItem', position: 4, name: 'CMS Website', url: `${SITE_URL}/services/cms-website` },
+      { '@type': 'ListItem', position: 5, name: 'Booking System', url: `${SITE_URL}/services/booking-system` },
+      { '@type': 'ListItem', position: 6, name: 'CRM System', url: `${SITE_URL}/services/crm-system` },
+      { '@type': 'ListItem', position: 7, name: 'Web Application', url: `${SITE_URL}/services/web-application` },
     ],
   }
 
@@ -175,27 +182,33 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" style={{gridAutoRows: '220px'}}>
             {serviceGrid.map((s) => (
-              <div
+              <Link
                 key={s.id}
-                className={`relative rounded-2xl overflow-hidden ${s.span}`}
+                href={`/services/${s.slug}`}
+                className={`relative rounded-2xl overflow-hidden ${s.span} group block`}
               >
                 <Image
                   src={s.image}
                   alt={s.title}
                   fill
-                  className="object-cover"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-5">
-                  <p className="text-white/50 text-xs font-medium tracking-widest uppercase mb-1">
-                    {s.tagline}
-                  </p>
-                  <h3 className="text-white text-lg md:text-xl font-bold leading-snug">
-                    {s.title}
-                  </h3>
+                <div className="absolute bottom-0 left-0 right-0 p-5 flex items-end justify-between">
+                  <div>
+                    <p className="text-white/50 text-xs font-medium tracking-widest uppercase mb-1">
+                      {s.tagline}
+                    </p>
+                    <h3 className="text-white text-lg md:text-xl font-bold leading-snug">
+                      {s.title}
+                    </h3>
+                  </div>
+                  <span className="shrink-0 w-8 h-8 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-200">
+                    <i className="fi fi-rr-arrow-right text-white text-xs" aria-hidden="true" />
+                  </span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 

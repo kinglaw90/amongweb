@@ -537,6 +537,326 @@ At Among Web, we build for Malaysian businesses of all sizes. Send us a WhatsApp
 [Get a free quote →](https://wa.me/60123456789?text=Hi%20Among%20Web%2C%20I'd%20like%20a%20quote%20for%20a%20website)
     `.trim(),
   },
+  {
+    id: 7,
+    slug: 'seo-for-malaysian-businesses-beginners-guide',
+    title: 'SEO for Malaysian Businesses: A Practical Beginner\'s Guide',
+    excerpt:
+      'Search engine optimisation doesn\'t have to be complicated. This plain-language guide covers what Malaysian business owners actually need to know to get found on Google.',
+    date: '2026-04-08',
+    readTime: '7 min read',
+    category: 'SEO',
+    image: 'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80&auto=format&fit=crop',
+    tags: ['seo', 'malaysia', 'google', 'beginners guide', 'digital marketing'],
+    author: 'Among Web',
+    content: `
+## SEO for Malaysian Businesses: A Practical Beginner's Guide
+
+SEO — search engine optimisation — is the process of helping your website appear in Google search results when people look up things relevant to your business. When someone searches "accountant Petaling Jaya" or "custom cake Johor Bahru", the websites that appear on page one didn't get there by accident. They got there because they were built and managed in a way that tells Google they're relevant, trustworthy, and worth surfacing.
+
+This guide covers what you actually need to understand as a business owner — not a technical deep dive, but a practical picture of what matters and why.
+
+
+## Why SEO Matters More Than Most Business Owners Realise
+
+Social media puts your content in front of people who may or may not be interested. Google puts your business in front of people who are actively searching for exactly what you offer.
+
+That's a fundamental difference in intent. Someone who Googles "physiotherapy clinic near Ampang" and clicks your result is already motivated — they have a problem, they want a solution, and they're ready to book. Converting that kind of visitor costs a fraction of what it takes to convert cold social media traffic.
+
+And unlike paid advertising, good SEO compounds. A blog article that ranks on Google's first page can bring consistent, free traffic for years. The returns improve over time as your site builds authority.
+
+
+## The Two Main Areas of SEO
+
+### On-Page SEO
+
+This covers what's on and within your website itself.
+
+**Keywords** — The actual search terms your potential customers type into Google. For a florist in Shah Alam, "flower delivery Shah Alam" and "wedding bouquet Shah Alam" are keywords worth targeting. Using them naturally in your page titles, headings, and content helps Google understand what each page is about.
+
+You don't need expensive keyword tools to start. Google's autocomplete suggestions and the "People also ask" section that appears in search results are genuinely useful for understanding what people actually search for.
+
+**Page titles and meta descriptions** — The title and short description that appear in Google search results. These need to be specific, include your main keyword, and give searchers a reason to click. "Home | XYZ Company" is a wasted title. "Wedding Florist Shah Alam — Fresh Flowers, Same-Day Delivery | XYZ Flowers" is a working one.
+
+**Headings** — Using H1, H2, and H3 headings properly helps Google understand the structure of your content. Each page should have one H1 (the main topic) and supporting H2/H3 headings for subsections. This also improves readability for actual humans, which is why Google rewards it.
+
+**Image optimisation** — Large, uncompressed images are one of the main reasons Malaysian websites load slowly. Compressing images before upload and adding descriptive alt text (which also helps visually impaired users) are both quick wins.
+
+**Content quality** — Google's algorithm has become significantly better at identifying whether content actually helps users. Thin, generic content written just to fill a page doesn't rank well anymore. Content that genuinely answers real questions does.
+
+
+### Technical SEO
+
+This covers the underlying structure of your website.
+
+**Mobile performance** — Google uses mobile-first indexing, meaning it evaluates your mobile site to determine rankings. In Malaysia, where over 70% of web traffic comes from smartphones, a site that performs poorly on mobile will rank poorly. Full stop.
+
+**Page speed** — Slow sites rank lower and convert worse. Google's Core Web Vitals — Largest Contentful Paint, Cumulative Layout Shift, Interaction to Next Paint — are specific speed and stability metrics that directly affect rankings. You can check your site's scores free at [PageSpeed Insights](https://pagespeed.web.dev/).
+
+**HTTPS** — Your site should be secured with an SSL certificate (the padlock in the browser bar). Sites without HTTPS get flagged as "not secure" by browsers and get a ranking penalty from Google. Most reputable hosting providers include free SSL via Let's Encrypt.
+
+**Site structure and internal linking** — A clear, logical site structure helps Google discover all your pages. Linking between related pages on your own site (called internal linking) helps distribute ranking authority across the site.
+
+**Google Search Console** — This free Google tool shows you which search terms are bringing people to your site, which pages are getting clicks, and whether there are any technical errors Google has detected. Every website should be connected to Search Console from launch. If yours isn't, set it up today.
+
+
+## Local SEO: Especially Important for Malaysian SMEs
+
+Most Malaysian businesses serve a specific geographic area. Local SEO is about making sure Google connects your business to the right location.
+
+**Google Business Profile** — This is the business listing that appears in Google Maps and in the local results section that appears at the top of relevant searches. Claiming and completing your Google Business Profile (name, address, phone, hours, photos, services) is the single highest-impact thing most local businesses can do for free.
+
+Reviews on your Google Business Profile matter significantly — both the number and the quality of responses. Actively asking satisfied customers to leave a review is not gaming the system; it's good business practice.
+
+**Location pages** — If your website serves multiple cities or states, creating a dedicated page for each location (rather than just mentioning the cities in passing) helps you rank for location-specific searches in each area.
+
+**NAP consistency** — Name, Address, Phone. These details should be identical everywhere they appear online: your website, Google Business Profile, Facebook page, Yelp, and any business directories. Inconsistencies confuse Google's local ranking algorithms.
+
+
+## Common Mistakes Malaysian Business Owners Make
+
+**Treating SEO as a one-time setup** — SEO is ongoing. Search intent shifts, competitors publish new content, Google updates its algorithm. A site that ranks well today needs continued attention to stay there.
+
+**Targeting keywords that are too competitive** — "web design" is dominated by international agencies with massive authority. "web design Ipoh for renovation companies" is achievable. Specificity is your friend when you're starting out.
+
+**Expecting results in two weeks** — New sites typically take 3–6 months to build domain authority and start ranking for competitive terms. Local searches in smaller cities can be faster. This timeline is a feature of how Google builds trust in new domains, not a flaw in the process.
+
+**Ignoring content entirely** — A five-page company website with thin content will plateau in rankings quickly. Regular, useful content (even one article per month) compounds over time and expands the number of search terms you can rank for.
+
+**Buying cheap backlinks** — Links from other websites to yours (backlinks) are one of Google's strongest ranking signals. But links from low-quality, irrelevant, or link-farm sites can actively hurt your rankings. Earned links — from local directories, industry sites, or genuine press — are the ones worth having.
+
+
+## Where to Focus First
+
+If you're just starting:
+
+1. Set up Google Search Console and Google Business Profile
+2. Make sure your site loads fast and works properly on mobile
+3. Write a clear, keyword-informed title and description for each page
+4. Add alt text to all your images
+5. Ask your satisfied customers for Google reviews
+
+If you already have some of that in place:
+
+1. Identify 3–5 specific search terms your ideal customers use
+2. Make sure you have a dedicated page optimised for each
+3. Publish one useful article per month answering real questions in your industry
+4. Build a few legitimate local backlinks (directories, Chamber of Commerce, industry associations)
+
+SEO isn't magic, and it isn't fast. But it is reliable — and for most businesses, it ends up being the most cost-effective channel for consistent, qualified leads over time.
+
+[Talk to us about SEO-ready web design →](/contact)
+    `.trim(),
+  },
+  {
+    id: 8,
+    slug: 'wordpress-vs-custom-website-malaysia',
+    title: 'WordPress vs Custom Website: Which Is Right for Your Malaysian Business?',
+    excerpt:
+      'WordPress or custom-coded website? Both have real trade-offs. This honest comparison helps Malaysian business owners make the right call based on their actual situation.',
+    date: '2026-04-22',
+    readTime: '6 min read',
+    category: 'Web Design',
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80&auto=format&fit=crop',
+    tags: ['wordpress', 'custom website', 'malaysia', 'cms', 'web development'],
+    author: 'Among Web',
+    content: `
+## WordPress vs Custom Website: Which Is Right for Your Malaysian Business?
+
+This comes up in almost every initial conversation with a new client. And the honest answer is: neither is universally better. They solve different problems, and choosing wrong in either direction costs you something real — money, flexibility, or maintenance headaches.
+
+Here's a direct comparison with no agenda to push you toward either option.
+
+
+## What WordPress Actually Is
+
+WordPress is an open-source content management system (CMS) that powers roughly 43% of all websites on the internet as of 2025. It started as a blogging platform, but has evolved into a general-purpose CMS capable of running everything from personal blogs to enterprise e-commerce stores.
+
+When people say "custom website," they usually mean one of two things: a site built with a framework like React, Next.js, or Laravel without a CMS layer — or a fully bespoke backend and frontend built from scratch for specific requirements. These are very different things, and the distinction matters for understanding cost and fit.
+
+
+## Where WordPress Works Well
+
+**Content-heavy sites** — If you plan to publish articles, case studies, product pages, or updates regularly, WordPress is genuinely excellent. Its editing interface is straightforward enough for non-technical staff to use without training, and the content management tools are mature.
+
+**SME company websites** — For a 5–10 page company website, WordPress with a quality theme and proper customization does the job well. The ecosystem of plugins handles most standard business requirements (contact forms, SEO tools, analytics integration, booking widgets) without custom development.
+
+**E-commerce** — WooCommerce, the most widely used WordPress e-commerce plugin, is capable, well-supported, and cost-effective for most Malaysian retailers. It supports payment gateways local to Malaysia including eGHL, Billplz, iPay88, and Stripe.
+
+**Budget-conscious projects** — Compared to a fully custom build, a WordPress site with proper customization typically costs 30–60% less for similar end results. For most SMEs, the difference in outcome doesn't justify the difference in cost.
+
+**Client self-management** — If the client wants to update pages, add team members, or change prices themselves without calling a developer, WordPress is purpose-built for that.
+
+
+## Where WordPress Has Genuine Limitations
+
+**Performance at scale** — WordPress can be made fast with the right configuration (caching, CDN, image optimisation), but it's more effort to tune than a lightweight custom build. Out of the box, without optimisation, WordPress sites tend to be slower than they should be. This matters for SEO and user experience.
+
+**Security maintenance** — WordPress's popularity makes it a frequent target for automated attacks. Core WordPress, themes, and plugins all require regular updates. An outdated WordPress installation is a real security risk. This isn't a reason to avoid it — it's a reason to have a maintenance plan.
+
+**Plugin conflicts and technical debt** — Installing many plugins to handle different features creates dependencies that can conflict with each other and cause problems during updates. A site with 30 plugins is a more fragile site than one with 8 well-chosen ones.
+
+**Highly specific functionality** — If your business needs something genuinely unusual — a custom pricing calculator, a multi-vendor marketplace with Malaysian-specific rules, a client portal with complex permissions — WordPress can technically be extended to do most things, but you're often fighting the platform rather than working with it. A custom solution is sometimes the cleaner answer.
+
+
+## Where Custom Development Makes Sense
+
+**Complex, unique functionality** — A booking and inventory system built specifically for a chain of car rental outlets in Malaysia doesn't map cleanly to any off-the-shelf plugin. Purpose-built is often the right answer here.
+
+**High-traffic applications** — A platform expecting tens of thousands of concurrent users needs performance engineering that generic CMS platforms aren't optimised for. Custom infrastructure design becomes important at that scale.
+
+**Long-term platform ownership** — A business building a proprietary tool as a product itself — rather than a marketing website — typically needs a custom codebase. You own the architecture, you control the roadmap, and you're not constrained by plugin compatibility or CMS update cycles.
+
+**Specific compliance requirements** — Industries with unusual data residency, audit logging, or security standards sometimes benefit from a custom backend where every piece of the stack is under direct control.
+
+
+## Real Cost Comparison for Malaysian SMEs
+
+| | WordPress | Custom |
+|---|---|---|
+| Company website (5–8 pages) | RM800 – RM2,500 | RM3,000 – RM8,000 |
+| E-commerce (basic) | RM2,000 – RM5,000 | RM5,000 – RM15,000 |
+| Booking system | RM2,000 – RM5,000 (plugin-based) | RM4,000 – RM15,000 |
+| Monthly maintenance | RM80 – RM250 | RM150 – RM500 |
+
+For most Malaysian SMEs with standard requirements, the additional cost of a fully custom build doesn't result in meaningfully better business outcomes. The decision to go custom should be driven by a specific need that WordPress genuinely can't serve — not by a general preference for "custom" as a signal of quality.
+
+
+## What Actually Matters More Than the Platform Choice
+
+Whoever is building the site — whether it's WordPress or custom — the things that determine actual business results are largely platform-agnostic:
+
+- Is the design genuinely built around your customers' needs and your conversion goals?
+- Is mobile performance treated as a priority, not an afterthought?
+- Is SEO built in from the start, or bolted on poorly afterward?
+- Are you getting clean credential handover — domain, hosting, admin access — when the project ends?
+- Is there a clear plan for updates and security over time?
+
+A beautifully customized WordPress site built by a competent developer will outperform a poorly designed custom site every time.
+
+
+## The Short Version
+
+Choose WordPress when you need a professional company website, blog, or e-commerce store with reasonable budget constraints and a need for ongoing content management.
+
+Choose custom development when your requirements are genuinely too specific or complex for WordPress to handle cleanly, or when you're building a platform product rather than a marketing website.
+
+If you're not sure which category you fall into, describe what you need the site to actually do — [send us a message](/contact) and we'll give you a straight recommendation.
+    `.trim(),
+  },
+  {
+    id: 9,
+    slug: 'how-to-speed-up-your-website-malaysia',
+    title: 'Why Your Website Is Slow — And How to Fix It',
+    excerpt:
+      'A slow website loses customers and ranks lower on Google. Here are the most common causes of slow Malaysian business websites and practical steps to fix them.',
+    date: '2026-05-01',
+    readTime: '5 min read',
+    category: 'Tips',
+    image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80&auto=format&fit=crop',
+    tags: ['website speed', 'performance', 'core web vitals', 'seo', 'malaysia'],
+    author: 'Among Web',
+    content: `
+## Why Your Website Is Slow — And How to Fix It
+
+Google research puts the number at around 53%: more than half of mobile users abandon a website that takes longer than 3 seconds to load. On a Malaysian mobile connection — 4G LTE with real-world speeds that often drop to 20–30 Mbps outside KL — a heavy website can easily hit 5–8 seconds.
+
+That's not a technical inconvenience. That's lost customers.
+
+Site speed also directly affects your Google ranking. Since 2021, Google has incorporated Core Web Vitals — measurable speed and stability metrics — as a ranking signal. A slow site ranks lower, which means fewer people find it.
+
+Here's what causes slowness and what actually fixes it.
+
+
+## Step One: Know Your Current Score
+
+Before doing anything, measure where you stand.
+
+Go to [Google PageSpeed Insights](https://pagespeed.web.dev/) and enter your website URL. It gives you two scores — mobile and desktop — plus a list of specific issues causing the slowdown. Pay attention to the mobile score. Desktop is almost always higher, but mobile is what Google uses for ranking.
+
+A score below 50 on mobile is a significant problem. 50–70 is poor but improvable. 70–90 is good. Above 90 is excellent.
+
+The report also shows three key Core Web Vitals:
+
+- **Largest Contentful Paint (LCP)** — How long the biggest visible element takes to load. Should be under 2.5 seconds.
+- **Cumulative Layout Shift (CLS)** — How much the page jumps around as it loads. Should be below 0.1.
+- **Interaction to Next Paint (INP)** — How quickly the page responds when someone clicks or taps. Should be under 200ms.
+
+
+## The Most Common Causes — and Their Fixes
+
+### Unoptimised Images
+
+This is responsible for the majority of slow-loading Malaysian business websites. Photos taken on a phone or downloaded from a stock site are often 3–8MB each. A page with 6 of these images is loading 20–50MB of content before anything else happens.
+
+**Fix:** Compress images before uploading. Tools like [Squoosh](https://squoosh.app/), [TinyPNG](https://tinypng.com/), or [ShortPixel](https://shortpixel.com/) reduce file size by 60–80% with no visible quality loss. Use WebP format where possible — it's supported by all modern browsers and produces smaller files than JPEG or PNG.
+
+Also use the right image size for where it appears. An image that displays at 400px wide doesn't need to be uploaded at 2400px.
+
+
+### Slow or Shared Hosting in Cheap Data Centres
+
+Budget web hosting — the type that costs RM3–5 per month — is often overcrowded shared hosting on a server handling thousands of sites simultaneously. Every request to your site competes with thousands of others for the same server resources.
+
+**Fix:** Move to a hosting provider with better performance. For Malaysian businesses, good options include Exabytes Business Hosting, SiteGround, or Cloudways on a DigitalOcean or Vultr instance. A server located in Singapore or Kuala Lumpur specifically reduces latency for Malaysian visitors.
+
+If you're on WordPress, a dedicated WordPress hosting provider (Kinsta, WP Engine, or Cloudways WordPress) makes a measurable difference.
+
+
+### No Caching
+
+Every time someone visits your website, the server builds the page from scratch — running database queries, assembling templates, generating HTML. Without caching, it does this for every single visitor, every single visit.
+
+**Fix:** Enable server-side caching. On WordPress, plugins like WP Rocket (paid, the best option), W3 Total Cache, or LiteSpeed Cache (if your host supports it, free) handle this properly. The result is that most visitors get a pre-built version of your page delivered almost instantly.
+
+
+### No CDN (Content Delivery Network)
+
+A CDN stores copies of your website's static files — images, CSS, JavaScript — on servers in multiple geographic locations. When a visitor loads your site, they receive files from the server nearest to them rather than making a round-trip to wherever your main server is located.
+
+**Fix:** Connect your site to a CDN. Cloudflare offers a free plan that significantly improves load times and also adds DDoS protection. For most Malaysian business websites, Cloudflare's free tier is sufficient. Paid options like BunnyCDN or KeyCDN are worth considering once traffic grows.
+
+
+### Bloated JavaScript and CSS
+
+Modern websites load a lot of code files — stylesheets, scripts, tracking pixels, chat widgets, booking widgets. Each file is a separate HTTP request. Too many of them, especially large ones that block rendering, slow everything down noticeably.
+
+**Fix:** Minify and combine CSS and JavaScript where possible. Caching plugins (WP Rocket, etc.) handle this for WordPress. Defer or lazy-load scripts that aren't needed for the initial page load — Google Analytics, Facebook Pixel, and chat widgets can load after the main content without affecting the user experience.
+
+Audit your plugins and integrations. Every third-party script you add has a performance cost. Remove anything you're not actively using.
+
+
+### Render-Blocking Resources
+
+Some CSS and JavaScript files load before your page content appears — they "block" rendering. Visitors see a blank or partial page while these files load.
+
+**Fix:** This requires some technical knowledge to address properly, but in PageSpeed Insights it will be flagged explicitly. The core fix is to load critical CSS inline, defer non-critical CSS, and use \`async\` or \`defer\` on JavaScript that isn't needed immediately. Caching and optimisation plugins handle much of this automatically.
+
+
+## Quick Wins in Order of Impact
+
+If you can only do a few things, do these first:
+
+1. **Compress all images** — biggest single impact, no technical skill required
+2. **Enable a caching plugin** (WordPress) or equivalent
+3. **Set up Cloudflare** — free, and measurably improves performance globally
+4. **Check your hosting** — if you're on shared hosting below RM20/month, upgrade
+5. **Remove unused plugins and scripts** — audit what's actually loading
+
+Most sites that score 40–50 on PageSpeed can reach 75–85 with image compression, caching, and a CDN alone. That's a meaningful improvement in both Google ranking and user experience.
+
+
+## When It's Worth Rebuilding
+
+If a website is fundamentally slow — built on a heavy page builder, loaded with conflicting plugins, hosted on a poor server — optimising it can feel like trying to make an old car fuel-efficient with better tyres. Sometimes the honest answer is that a rebuild on a proper foundation is the more efficient investment.
+
+Modern frameworks like Next.js produce exceptionally fast websites by design. Sites built this way routinely score 90+ on PageSpeed without aggressive manual optimisation, because performance is built into how they work.
+
+If your site consistently scores below 50 on mobile despite optimisation attempts, it's worth having a conversation about whether rebuilding on a better foundation makes sense for your business.
+
+[Talk to us about improving your website's performance →](/contact)
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
